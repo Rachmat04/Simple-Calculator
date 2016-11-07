@@ -9,9 +9,17 @@
         Console.WriteLine("Masukkan nilai kedua: ")
         Dim nilai2 As Integer = Console.ReadLine()
         Console.WriteLine()
-        Dim nilai3 As Integer
+        Dim nilai3, nilai4, nilai5, nilai6 As Integer
         nilai3 = nilai1 * nilai2
+        nilai4 = nilai1 + nilai2
+        nilai5 = nilai1 - nilai2
+        nilai6 = nilai1 / nilai2
+        Console.WriteLine("Hasil penjumlahan nilai pertama dan kedua adalah " & nilai4)
+        Console.WriteLine("Hasil pengurangan nilai pertama dan kedua adalah" & nilai5)
         Console.WriteLine("Hasil perkalian nilai pertama dan kedua adalah " & nilai3)
+        Console.WriteLine("Hasil pembagian nilai pertama dan kedua adalah " & nilai6)
+        Console.WriteLine()
+        Console.WriteLine("Hasil dari nilai pertama pangkat nilai kedua adalah " & nilai1 ^ nilai2)
         Console.ReadLine()
     End Sub
 
