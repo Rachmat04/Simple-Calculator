@@ -15,7 +15,7 @@
         nilai5 = nilai1 - nilai2
         nilai6 = nilai1 / nilai2
         Console.WriteLine("Hasil penjumlahan nilai pertama dan kedua adalah " & nilai4)
-        Console.WriteLine("Hasil pengurangan nilai pertama dan kedua adalah" & nilai5)
+        Console.WriteLine("Hasil pengurangan nilai pertama dan kedua adalah " & nilai5)
         Console.WriteLine("Hasil perkalian nilai pertama dan kedua adalah " & nilai3)
         Console.WriteLine("Hasil pembagian nilai pertama dan kedua adalah " & nilai6)
         Console.WriteLine()
